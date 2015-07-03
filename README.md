@@ -7,5 +7,5 @@
 Collaborator:
 Tom Leskin, Mihir Parikh, Kenny Chen, and Andrew Carmer
 
-Check it out at:
+
 http://HipsterBytes.herokuapp.com
