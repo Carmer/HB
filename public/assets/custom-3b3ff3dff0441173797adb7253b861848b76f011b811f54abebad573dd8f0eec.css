@@ -1,0 +1,452 @@
+/* line 1, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+body {
+  padding-top: 0px;
+  background: url(/assets/background-cca82893969d6b0d39096314fe35f67a2c54dc3c79c68c1a3a7c13b17939041d.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: monospace;
+}
+
+/* line 12, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.navbar-brand {
+  font-family: 'Playfair Display', cursive !important;
+  font-size: 30px !important;
+  color: black;
+}
+
+/* line 18, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+h1 {
+  font-family: 'Playfair Display', cursive !important;
+  color: black;
+}
+
+/* line 23, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.front-page-image {
+  padding-bottom: 10px;
+  text-align: center;
+  vertical-align: center;
+}
+
+/* line 29, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.navbar {
+  background-color: white;
+  background: white;
+  opacity: .9;
+  color: #777;
+  z-index: 10000;
+}
+
+/* line 38, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.navbar li {
+  color: #000;
+}
+
+/* line 42, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.nav.navbar-nav.navbar-right li a {
+  color: #777;
+}
+
+/* line 46, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.nav.navbar-nav.navbar-left li a {
+  color: #777;
+}
+
+/* line 50, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.jumbotron {
+  opacity: .7;
+  background-color: white;
+}
+
+/* line 55, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.jumbotron1 {
+  opacity: .5;
+  background-color: white;
+}
+
+/* line 60, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.carousel {
+  margin: 0 auto 50px;
+  z-index: 2;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+/* line 69, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  margin: auto;
+  width: 100%;
+}
+
+/* line 75, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+#flash_notice {
+  font-family: monospace;
+  text-style: bold;
+  opacity: .8;
+  text-align: center;
+  margin-right: 60%;
+  padding: 4px;
+  border-radius: 100px;
+  color: #fff8dc;
+  background-color: darkgrey;
+}
+
+/* line 87, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+#flash_errors {
+  font-family: monospace;
+  text-style: bold;
+  opacity: .8;
+  text-align: center;
+  margin-right: 60%;
+  padding: 4px;
+  border-radius: 100px;
+  color: #fff8dc;
+  background-color: darkgrey;
+}
+
+/* line 99, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+#flash_messages {
+  font-family: monospace;
+  text-style: bold;
+  opacity: .8;
+  text-align: center;
+  margin-right: 60%;
+  padding: 4px;
+  border-radius: 100px;
+  color: #fff8dc;
+  background-color: darkgrey;
+}
+
+/* line 110, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+#flash_message {
+  font-family: monospace;
+  text-style: bold;
+  opacity: .8;
+  text-align: center;
+  margin-right: 60%;
+  padding: 4px;
+  border-radius: 100px;
+  color: #fff8dc;
+  background-color: darkgrey;
+}
+
+/* line 121, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+#flash_error {
+  font-family: monospace;
+  text-style: bold;
+  opacity: .8;
+  text-align: center;
+  margin-right: 60%;
+  padding: 4px;
+  border-radius: 100px;
+  color: #fff8dc;
+  background-color: darkgrey;
+}
+
+/* line 133, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+#flash_twitter {
+  font-family: monospace;
+  text-style: bold;
+  opacity: .8;
+  text-align: center;
+  margin-right: 60%;
+  padding: 4px;
+  border-radius: 100px;
+  color: #fff8dc;
+  background-color: red;
+}
+
+/* line 145, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+table td {
+  font-family: monospace;
+  border: 2px solid black;
+  padding: 10px;
+  align: center;
+}
+
+/* line 152, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.admin_orders_list {
+  font-family: monospace;
+  width: 65%;
+  padding: 5px;
+  border: 1px solid;
+  height: 500px;
+  overflow: auto;
+}
+
+/* line 161, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.user-orders-list {
+  font-family: monospace;
+  width: 65%;
+  padding: 5px;
+  border: 1px solid;
+  height: 500px;
+  overflow: auto;
+  margin-left: 18%;
+}
+
+/* line 170, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.center_div {
+  font-family: monospace;
+  padding: 3px;
+  margin-right: 10px;
+}
+
+/* line 176, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.dropdown-menu li:hover .sub-menu {
+  font-family: monospace;
+  visibility: visible;
+}
+
+/* line 181, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.dropdown:hover .dropdown-menu {
+  font-family: monospace;
+  display: block;
+}
+
+/* line 186, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.account {
+  float: left;
+}
+
+/* line 190, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.admin_orders_list h3 {
+  font-family: monospace;
+  text-align: center;
+}
+
+/* line 195, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.dashboard {
+  float: left;
+  margin-left: 5%;
+}
+
+/* line 200, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.index {
+  text-align: center;
+}
+
+/* line 204, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.index {
+  float: left;
+  align: center;
+  list-style: none;
+  margin-left: 37%;
+}
+
+/* line 211, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.container h1 {
+  text-align: center;
+}
+
+/* line 215, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.container h3 {
+  text-align: center;
+}
+
+/* line 220, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.container {
+  font-family: monospace;
+}
+
+/* line 224, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.container .index {
+  text-align: center;
+  float: left;
+  list-style: none;
+  width: 200px;
+}
+
+/* line 231, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.field {
+  align: center;
+  float: left;
+  margin-left: 43%;
+  width: 75%;
+}
+
+/* line 238, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.collection {
+  padding: 3px;
+}
+
+/* line 242, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.submit {
+  align: center;
+  float: left;
+  margin-left: 43%;
+  width: 75%;
+}
+
+/* line 249, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.form {
+  align: center;
+  float: left;
+  margin-left: 43%;
+  width: 75%;
+}
+
+/* line 256, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.order-dashboard-page {
+  align: center;
+  float: left;
+  margin-left: 23%;
+  width: 85%;
+}
+
+/* line 263, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.admin-links p {
+  border: 2px solid black;
+  border-radius: 5px;
+  align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  padding: 2px;
+}
+
+/* line 273, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.admin-links p:hover {
+  background-color: grey;
+  font-color: white;
+}
+
+/* line 278, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.twitter-login {
+  align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  padding: 10px;
+}
+
+/* line 286, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.collection {
+  margin-left: -100px;
+  list-style: vertical;
+}
+
+/* line 291, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.filter {
+  padding: 1em;
+}
+/* line 293, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.filter label {
+  font-size: 0.8em;
+}
+/* line 295, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.filter label:after {
+  content: ': ';
+}
+/* line 299, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.filter select, .filter input {
+  margin-right: 1em;
+}
+
+/* line 304, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.index-container img {
+  text-align: center;
+  padding-top: 4px;
+}
+
+/* line 309, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.index-container h4 {
+  min-height: 50px;
+}
+
+/* line 313, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.cat-items {
+  max-height: 1000px;
+  min-height: 450px !important;
+}
+
+/* line 318, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.index-container h2 {
+  text-align: center;
+}
+
+/* line 322, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.description {
+  text-align: center;
+  font-size: 20px;
+}
+
+/* line 327, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.thumbnail {
+  width: 300px;
+  margin-left: 33%;
+  opacity: 0.7;
+  background-color: cornsilk;
+  text-align: center;
+}
+
+/* line 335, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.checkouts-page {
+  margin-left: 25%;
+}
+
+/* line 339, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.checkouts-page h2 {
+  text-align: center;
+  margin-left: -375px;
+}
+
+/* line 344, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.confirmation {
+  margin-left: 25%;
+}
+
+/* line 348, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.confirmation h2 {
+  text-align: center;
+  margin-left: -375px;
+}
+
+/* line 353, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.flashes {
+  margin-left: 35%;
+}
+
+/* line 357, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.user-show {
+  width: 300px;
+  margin-left: 33%;
+  opacity: 0.7;
+  background-color: white;
+  text-align: center;
+}
+
+/* line 365, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.user-order-list {
+  font-family: monospace;
+  width: 45%;
+  padding: 5px;
+  height: 500px;
+  overflow: auto;
+  margin-left: 28%;
+}
+
+/* line 374, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.payment {
+  font-family: monospace;
+  width: 45%;
+  padding: 5px;
+  height: 500px;
+  overflow: auto;
+  margin-left: 28%;
+}
+
+/* line 383, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.admin_status_list h3 {
+  margin-left: -350px;
+}
+
+/* line 387, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.admin_status_list table {
+  margin-left: 210px;
+}
+
+/* line 391, /Users/Carmer/Documents/Turing/projects/hipster-bytes/app/assets/stylesheets/custom.css.scss */
+.filter {
+  margin-left: 180px;
+}
