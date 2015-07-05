@@ -310,6 +310,11 @@ table td {
   min-height: 50px;
 }
 
+.cat-items {
+  max-height: 1000px;
+  min-height: 450px !important;
+}
+
 .index-container h2 {
   text-align: center;
 }
