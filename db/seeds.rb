@@ -45,7 +45,7 @@ Item.create(title: "Pierced Pancakes", description: "Fluffy and pierced.", price
 Item.create(title: "Played out Panini", description: "All you would expect from a panini made by grandma", price: 2000).categories << Category.find(5)
 Item.create(title: "Mixed Tape Macarroni", description: "Chef put some work on this one, put it on and check it out", price: 2000).categories << Category.find(5)
 Item.create(title: "Plaid Bass", description: "more hip than the striped bass", price:2000).categories << Category.find(5)
-Item.create(title: "Anti-Frack-Fries", description: "You think you were pissed with you heard the started a fracking stie in your old home town? Try running out of these fries.", price:2000).categories << Category.find(5)
+Item.create(title: "Anti-Frack-Fries", description: "Eat em'.", price:2000).categories << Category.find(5)
 Item.create(title: "Turnt-Up Tiramasu", description: "So creamy, it'll turnt you up.", price:2000).categories << Category.find(5)
 Item.create(title: "Alternative Artichokes", description: "These grilled artichokes will make you emo", price: 2000).categories << Category.find(5)
 Item.create(title: "Cofficcino Iced Blended Coffee", description: "We stole this from some tiny coffee chain.", price:500).categories << Category.find(5)

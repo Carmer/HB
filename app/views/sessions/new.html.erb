@@ -3,12 +3,17 @@
 <div id="login_form">
 
   <%= form_for(:session, url: login_path) do |f| %>
-  <div class="field"><%= f.text_field :email, placeholder: 'Email' %><br></div>
-  <div class="field"><%= f.password_field :password, placeholder: 'Password' %><br></div>
-  <div class="submit"><%= f.submit 'Submit'%></div>
-  <% end %>
+  <div class="form-group col-md-6 col-md-offset-3">
+
+    <%= f.label :email %>
+    <%= f.text_field :email, placeholder: 'Email', class: "form-control" %>
+    <%= f.label :password %>
+    <%= f.password_field :password, placeholder: 'Password', class: "form-control" %>
+    <%= f.submit 'Submit'%>
+    <% end %>
+  </div>
 </div>
 
   <div class="twitter-login">
-    <%= link_to "Login with Twitter", login_twitter_path %>
+    <h4><%= link_to "Login with Twitter", login_twitter_path %></h4>
   </div>
