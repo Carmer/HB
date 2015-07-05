@@ -4,7 +4,7 @@
 
   <% @items.each do |item| %>
       <div class="col-lg-3 col-md-4 col-sm-6">
-        <%= image_tag item.image.url(:thumb) %>
+        <a href="/items/<%= item.id %>"><%= image_tag item.image.url(:thumb) %></a>
       <h4><%= link_to "#{item.title}",item_path(item) %></h4>
     </div>
   <% end %>
