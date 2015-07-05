@@ -4,8 +4,7 @@
 
 <%= image_tag current_user.picture.url(:small) %>
 <%= button_to "Edit Profile", edit_user_path, method: :get %>
-<%= button_to "Delete", user_path, method: :delete %>
-
 <%= button_to "Order History", user_orders_path(user_id: current_user.id), method: :get %>
+<%= button_to "Delete Account", user_path, method: :delete %>
 
 </div>
