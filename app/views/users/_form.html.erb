@@ -1,14 +1,21 @@
 <%= form_for(@user, url: user_path, html: {multipart: true}) do |f| %>
-  <div class="field"><p><%= f.text_field :name, placeholder: "Name" %></p></div><br>
-    <div class="field"><p><%= f.text_field :username, placeholder: "Username" %></p></div><br>
-      <div class="field"><p><%= f.text_field :email, placeholder: "Email" %></p></div><br>
-        <div class="field"><p><%= f.password_field :password, placeholder: "Password" %></p></div><br>
-          <div class="field"><p><%= f.password_field :password_confirmation, placeholder: "Password confirmation" %></p></div><br>
-            <div class="field"><p><%= f.label :picture, "Attach a Picture" %></p></div><br>
-              <div class="field"><p><%= f.file_field :picture %></p></div><br>
-                <div class="field"><p><%= f.submit %></p></div><br>
+  <div class="form-group col-md-6 col-md-offset-3">
+    <%= f.label :name %>
+    <%= f.text_field :name, placeholder: "Name", class: "form-control" %>
+    <%= f.label :username %>
+    <%= f.text_field :username, placeholder: "Username", class: "form-control" %>
+    <%= f.label :email%>
+    <%= f.text_field :email, placeholder: "Email", class: "form-control" %>
+    <%= f.label :password %>
+    <%= f.password_field :password, placeholder: "Password", class: "form-control" %>
+    <%= f.label :password_confirmation %>
+    <%= f.password_field :password_confirmation, placeholder: "Password confirmation", class: "form-control" %>
+    <%= f.label :picture, "Attach a Picture"  %>
+    <%= f.file_field :picture %>
+    <%= f.submit%>
+  </div>
 <% end %>
 
 
 <div class="field">Already a user?
-<p><%= button_to "Login", login_path, method: :get %><p></div>
+<p><%= button_to "Login", login_path, method: :get%><p></div>
